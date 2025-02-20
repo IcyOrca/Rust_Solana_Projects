@@ -1,0 +1,22 @@
+# Ignore build output directories
+/target/
+
+# Ignore Cargo.lock for libraries, but include for binaries
+# (You can uncomment this if you want to include Cargo.lock for binary projects)
+# Cargo.lock
+
+# Ignore Rust backup files
+**/*.rs.bk
+
+# Ignore the IDE-specific files (e.g., JetBrains, Visual Studio Code)
+.idea/
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore any log files
+*.log
